@@ -1,7 +1,7 @@
 function displayPoem(event) {
   event.preventDefault();
 
-  new Typewriter("#poem", {
+  new Typewriter("#poems", {
     strings: "La tombe dit à la rose",
     autoStart: true,
     delay: 10,
