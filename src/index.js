@@ -5,7 +5,7 @@ function generatePoem(response) {
     strings: response.data.answer,
     autoStart: true,
     delay: 10,
-    cursor: none,
+    cursor: "",
   });
 }
 
